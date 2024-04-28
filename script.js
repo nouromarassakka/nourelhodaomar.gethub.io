@@ -53,8 +53,8 @@ function myFunction() { //POPUP ALERT
     var currentStyle = styleLink.getAttribute('href');
   
     if (currentStyle === 'style.css') {
-      styleLink.setAttribute('href', 'style2.css');
-    } else {
       styleLink.setAttribute('href', 'style.css');
+    } else {
+      styleLink.setAttribute('href', 'style2.css');
     }
   };
